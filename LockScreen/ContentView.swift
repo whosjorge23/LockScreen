@@ -14,10 +14,7 @@ struct ContentView: View {
             ZStack {
                 //LockScreenView
                 if unLocked{
-                    Text("App Unlocked!")
-                        .font(.title2)
-                        .fontWeight(.heavy)
-                    
+                    MainView()
                 }else{
                     LockScreenView(unLocked: $unLocked)
                 }

@@ -14,6 +14,7 @@
 		ED45135126554D190084D2B8 /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45135026554D190084D2B8 /* LockScreenView.swift */; };
 		ED451354265553360084D2B8 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED451353265553360084D2B8 /* PasswordView.swift */; };
 		ED451357265556480084D2B8 /* PasswordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED451356265556480084D2B8 /* PasswordButton.swift */; };
+		ED45135E26556DF00084D2B8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45135D26556DF00084D2B8 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ED45135026554D190084D2B8 /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
 		ED451353265553360084D2B8 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 		ED451356265556480084D2B8 /* PasswordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordButton.swift; sourceTree = "<group>"; };
+		ED45135D26556DF00084D2B8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				ED45134026554CEC0084D2B8 /* LockScreenApp.swift */,
 				ED45134226554CEC0084D2B8 /* ContentView.swift */,
 				ED45135026554D190084D2B8 /* LockScreenView.swift */,
+				ED45135D26556DF00084D2B8 /* MainView.swift */,
 				ED451353265553360084D2B8 /* PasswordView.swift */,
 				ED451356265556480084D2B8 /* PasswordButton.swift */,
 				ED45134426554CEE0084D2B8 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED45134326554CEC0084D2B8 /* ContentView.swift in Sources */,
+				ED45135E26556DF00084D2B8 /* MainView.swift in Sources */,
 				ED451357265556480084D2B8 /* PasswordButton.swift in Sources */,
 				ED45135126554D190084D2B8 /* LockScreenView.swift in Sources */,
 				ED45134126554CEC0084D2B8 /* LockScreenApp.swift in Sources */,
