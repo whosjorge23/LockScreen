@@ -11,6 +11,9 @@
 		ED45134326554CEC0084D2B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45134226554CEC0084D2B8 /* ContentView.swift */; };
 		ED45134526554CEE0084D2B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED45134426554CEE0084D2B8 /* Assets.xcassets */; };
 		ED45134826554CEE0084D2B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED45134726554CEE0084D2B8 /* Preview Assets.xcassets */; };
+		ED45135126554D190084D2B8 /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45135026554D190084D2B8 /* LockScreenView.swift */; };
+		ED451354265553360084D2B8 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED451353265553360084D2B8 /* PasswordView.swift */; };
+		ED451357265556480084D2B8 /* PasswordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED451356265556480084D2B8 /* PasswordButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		ED45134426554CEE0084D2B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED45134726554CEE0084D2B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED45134926554CEE0084D2B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED45135026554D190084D2B8 /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenView.swift; sourceTree = "<group>"; };
+		ED451353265553360084D2B8 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		ED451356265556480084D2B8 /* PasswordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				ED45134026554CEC0084D2B8 /* LockScreenApp.swift */,
 				ED45134226554CEC0084D2B8 /* ContentView.swift */,
+				ED45135026554D190084D2B8 /* LockScreenView.swift */,
+				ED451353265553360084D2B8 /* PasswordView.swift */,
+				ED451356265556480084D2B8 /* PasswordButton.swift */,
 				ED45134426554CEE0084D2B8 /* Assets.xcassets */,
 				ED45134926554CEE0084D2B8 /* Info.plist */,
 				ED45134626554CEE0084D2B8 /* Preview Content */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED45134326554CEC0084D2B8 /* ContentView.swift in Sources */,
+				ED451357265556480084D2B8 /* PasswordButton.swift in Sources */,
+				ED45135126554D190084D2B8 /* LockScreenView.swift in Sources */,
 				ED45134126554CEC0084D2B8 /* LockScreenApp.swift in Sources */,
+				ED451354265553360084D2B8 /* PasswordView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

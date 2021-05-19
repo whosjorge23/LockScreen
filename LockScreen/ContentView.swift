@@ -8,9 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var unLocked = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            ZStack {
+                //LockScreenView
+                if unLocked{
+                    Text("App Unlocked!")
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                    
+                }else{
+                    LockScreenView(unLocked: $unLocked)
+                }
+            }
+            .preferredColorScheme(unLocked ? .light : .dark)
+        }
+        
     }
 }
 
