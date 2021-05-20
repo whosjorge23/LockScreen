@@ -9,19 +9,23 @@ import SwiftUI
 
 struct ContentView: View {
     @State var unLocked = false
+    @State var help = false
     var body: some View {
         NavigationView {
             ZStack {
                 //LockScreenView
                 if unLocked{
                     MainView()
+                }else if help {
+                    HelpView()
                 }else{
-                    LockScreenView(unLocked: $unLocked)
+                    LockScreenView(unLocked: $unLocked, help: $help)
                 }
             }
-            .preferredColorScheme(unLocked ? .light : .dark)
+//            .preferredColorScheme(unLocked ? .light : .dark)
+            .preferredColorScheme(.dark)
         }
-        
+        .navigationBarHidden(true)
     }
 }
 

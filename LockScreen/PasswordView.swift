@@ -20,7 +20,7 @@ struct PasswordView: View {
             
             if password.count > index {
                 Circle()
-                    .fill(Color.white)
+                    .fill(Color.green)
                     .frame(width: 30, height: 30)
             }
         }

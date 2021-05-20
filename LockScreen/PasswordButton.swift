@@ -56,7 +56,7 @@ struct PasswordButton: View {
                                     unlocked = true
                                 }else {
                                     wrongPass = true
-                                    password.removeAll()
+                                    //password.removeAll()
                                 }
                             }
                         }

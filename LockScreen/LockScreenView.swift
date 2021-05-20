@@ -14,23 +14,44 @@ struct LockScreenView: View {
     @AppStorage("lock_Password") var key = "2020"
     @Binding var unLocked : Bool
     @State var wrongPassword = false
+    @Binding var help : Bool
     var body: some View {
         VStack(alignment: .center, spacing: nil, content: {
             HStack(alignment: .center, spacing: nil, content: {
                 Spacer(minLength: 0)
                 Menu(content: {
-                    Label(
-                        title: { Text("Help") },
-                        icon: { Image(systemName: "info.circle.fill") })
-                        .onTapGesture(perform: {
-                            //perform actions...
-                        })
-                    Label(
-                        title: { Text("Reset Password") },
-                        icon: { Image(systemName: "key.fill") })
-                        .onTapGesture(perform: {
-                            //perform actions...
-                        })
+//                    Label(
+//                        title: { Text("Help") },
+//                        icon: { Image(systemName: "info.circle.fill") })
+//                        .onTapGesture(perform: {
+//                            //perform actions...
+//                        })
+                    Button(action: {
+                        help = true
+                        print("button")
+                    }, label: {
+                        Text("Help")
+                        Image(systemName: "info.circle.fill")
+                    })
+//                    Label(
+//                        title: { Text("Reset Password") },
+//                        icon: { Image(systemName: "key.fill") })
+//                        .onTapGesture(perform: {
+//                            //perform actions...
+//                            print("Tapped")
+//                        })
+                    Button(action: {
+                        key = password
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                            withAnimation{
+                                password.removeAll()
+                            }
+                        }
+                        print("button")
+                    }, label: {
+                        Text("Reset Password")
+                        Image(systemName: "key.fill")
+                    })
                 }) {
                     Image(systemName: "gear")
                         .renderingMode(.template)
