@@ -56,7 +56,7 @@ struct LockScreenView: View {
                     Image(systemName: "gear")
                         .renderingMode(.template)
                         .resizable()
-                        .frame(width: 19, height: 19)
+                        .frame(width: 25, height: 25)
                         .foregroundColor(.white)
                         .padding()
                 }
